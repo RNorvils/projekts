@@ -1,16 +1,61 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="lv">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bellywear</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  Hello world
+  <div class="wrapper">
+    <!-- Logo top‑left -->
+    <header>
+      <img class="logo" src="logo.png" alt="Bellywear Logo" />
+
+      <!-- Navigation bar -->
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">Par mums</a></li>
+          <li><a href="#">Katalogs</a></li>
+          <li><a href="#">Meklēt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+      <!-- Top card -->
+      <section class="card big-card">
+        <div class="card-text">
+          <p>Pārdodam vīriešu apģērbus – džemperus, kreklus, šortus, bikses.</p>
+        </div>
+        <div class="card-image">
+          <img src="model.jpg" alt="Vīrietis apģērbā" />
+        </div>
+      </section>
+
+      <!-- Bottom cards -->
+      <section class="cards-row">
+        <div class="card">
+          <div class="card-text">
+            <p>Mūsu katalogā ir tādi brendi kā Nike, Adidas, Puma.</p>
+          </div>
+          <div class="card-image">
+            <img src="brands.jpg" alt="Nike, Adidas, Puma logo" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-text">
+            <p>Mēs esam priecīgi apspriest jūsu pirkumu, rakstiet uz mūsu Instagram Bellyshop52</p>
+          </div>
+          <div class="card-image">
+            <img src="instagram.png" alt="Instagram logo" />
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
   <script src="script.js"></script>
 </body>
-
 </html>
